@@ -19,13 +19,24 @@
     <header>
         <div class="container">
             <h2 class="logo">NETFLIX</h2>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Mais recentes</a>
-                <a href="#">Minha lista</a>
-            </nav>
+            <div class="navegacao-usuario">
+                <nav>                    
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Mais recentes</a>
+                    <a href="#">Minha lista</a>                   
+                </nav>
+            </div>
+
+            <div class="segunda-navegacao">
+                <button role="button" class="botao-Links"> <i class="fas fa-search"></i> </button>
+                <button role="button" class="botao-Links"> <i class="fas fa-gift"></i> </button>
+                <button role="button" class="botao-Links"> <i class="fas fa-bell"></i> </button>
+
+                
+                
+           </div> 
         </div>
     </header>
 
@@ -49,9 +60,12 @@
         </div>
     </main>
 
+    <div class="container">
+        <h3 class="titulo-lista">Minha lista</h3>
+    </div>
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
-            <!-- <h3>Minha lista</h3> -->
+            
             <div class="item">
                 <img class="box-filme" src="img/mini1.jpg" alt="">
             </div>
